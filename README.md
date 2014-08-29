@@ -51,9 +51,8 @@ and call 'createCollage'
 		
 ```
 
-You can set Collage fixed:
 
-* You con set Collage fixed
+* You can set Collage fixed
 
 ```java
 
