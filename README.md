@@ -8,7 +8,12 @@ or dynamic Collage (cards can move, scale and rotate).
 
 Collage is based on library created by <a href="https://github.com/thuytrinh/android-collage-views">thuytrinh</a>
 
-<img src='./Sample.png' width='270' height='480' />
+<img src='.raw/Sample.png' width='270' height='480' />
+
+<video width="320" height="240" autoplay="autoplay" loop>
+  <source src=".raw/collagesample.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 Check CollageSample in 
 
