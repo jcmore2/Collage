@@ -8,9 +8,9 @@ or dynamic Collage (cards can move, scale and rotate).
 
 Collage is based on library created by <a href="https://github.com/thuytrinh/android-collage-views">thuytrinh</a>
 
-<img src='.raw/sample1.gif' width='270' height='480' />
-<img src='.raw/sample2.gif' width='270' height='480' />
-<img src='.raw/sample3.gif' width='270' height='480' />
+<img src='raw/sample1.gif' width='270' height='480' />
+<img src='raw/sample2.gif' width='270' height='480' />
+<img src='raw/sample3.gif' width='270' height='480' />
 
 
 Check CollageSample in 
