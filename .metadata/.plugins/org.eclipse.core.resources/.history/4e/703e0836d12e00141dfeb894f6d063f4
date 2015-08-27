@@ -1,0 +1,40 @@
+package com.jcmore2.collagesample;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+
+import com.jcmore2.collage.CollageView;
+
+/**
+ * Sample app
+ * 
+ * @see Juan Carlos Moreno (jcmore2@gmail.com)
+ */
+@SuppressLint("ResourceAsColor")
+public class MainActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+
+		setContentView(R.layout.activity_main);
+
+		CollageView collage = (CollageView) findViewById(R.id.collage);
+
+		List<Integer> listRes = new ArrayList<Integer>();
+		listRes.add(R.drawable.daffodils);
+		listRes.add(R.drawable.green);
+		listRes.add(R.drawable.hawaii);
+		listRes.add(R.drawable.sunset);
+		collage.setFixedCollage(true);
+		collage.createCollageResource(listRes);
+
+		Button random = (Button) findViewById(R.id.random);
+
+	}
+}

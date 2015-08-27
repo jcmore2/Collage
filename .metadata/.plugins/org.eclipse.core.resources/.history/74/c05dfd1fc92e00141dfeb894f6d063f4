@@ -1,0 +1,29 @@
+package com.jcmore2.collagesample;
+
+import java.util.ArrayList;
+
+import com.jcmore2.collage.CollageView;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+/**
+ * 
+ * 
+ * @see Juan Carlos Moreno (jcmore2@gmail.com)
+ */
+public class MainActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+
+		setContentView(R.layout.activity_main);
+
+		CollageView collage = (CollageView) findViewById(R.id.collage);
+		
+		List<Integer> listRes = new ArrayList<E>();
+		collage.createCollageResource(n)
+
+	}
+}

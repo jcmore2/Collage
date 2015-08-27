@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/build/intermediates/exploded-aar/CollageSample/collage/unspecified/res"><file path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/build/intermediates/exploded-aar/CollageSample/collage/unspecified/res/values/values.xml" qualifiers=""><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><string name="app_name">Collage</string><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style></file><file path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/build/intermediates/exploded-aar/CollageSample/collage/unspecified/res/values-v11/values-v11.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/build/intermediates/exploded-aar/CollageSample/collage/unspecified/res/values-v14/values-v14.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file></source></dataSet><dataSet config="main"><source path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/src/main/res"><file name="icon" path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/src/main/res/drawable-hdpi/icon.jpg" qualifiers="hdpi" type="drawable"/><file name="img1" path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/src/main/res/drawable-xhdpi/img1.jpg" qualifiers="xhdpi" type="drawable"/><file name="img2" path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/src/main/res/drawable-xhdpi/img2.jpg" qualifiers="xhdpi" type="drawable"/><file name="img3" path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/src/main/res/drawable-xhdpi/img3.jpg" qualifiers="xhdpi" type="drawable"/><file name="img4" path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/src/main/res/drawable-xhdpi/img4.jpg" qualifiers="xhdpi" type="drawable"/><file name="activity_main" path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/src/main/res/layout/activity_main.xml" qualifiers="" type="layout"/><file path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="ButtonBarContainerTheme">
+        <attr format="reference" name="metaButtonBarStyle"/>
+        <attr format="reference" name="metaButtonBarButtonStyle"/>
+    </declare-styleable></file><file path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/src/main/res/values/colors.xml" qualifiers=""><color name="black_overlay">#66000000</color></file><file path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">CollageSample</string></file><file path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/src/main/res/values/styles.xml" qualifiers=""><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style></file><file path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/src/main/res/values-v11/styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/src/main/res/values-v14/styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file></source><source path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/build/generated/res/rs/debug"/><source path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug"><source path="/Users/jcmore2/Documents/Codigo Android/CollageSample/collageSample/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="metaButtonBarStyle"/><attr format="reference" name="metaButtonBarButtonStyle"/></declare-styleable></configuration></mergedItems></merger>

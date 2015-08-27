@@ -1,3 +1,0 @@
-int string app_name 0x7f020000
-int style AppBaseTheme 0x7f030000
-int style AppTheme 0x7f030001

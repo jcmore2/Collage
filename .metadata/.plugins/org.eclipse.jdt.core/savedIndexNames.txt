@@ -1,0 +1,13 @@
+INDEX VERSION 1.126+/Users/jcmore2/Documents/Codigo Android/AndroidCollageLib/.metadata/.plugins/org.eclipse.jdt.core
+615090342.index
+2216324854.index
+761213803.index
+2321507515.index
+1639844544.index
+1827964156.index
+3713096109.index
+2382550693.index
+1060925455.index
+467623344.index
+3128321711.index
+1181250783.index

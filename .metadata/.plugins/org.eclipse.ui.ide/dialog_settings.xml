@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.android.ide.eclipse.adt.feature:23.0.0.1245622"/>
+		<item value="com.android.ide.eclipse.adt.package.feature:23.0.0.1245622"/>
+		<item value="com.android.ide.eclipse.ddms.feature:23.0.0.1245622"/>
+		<item value="com.android.ide.eclipse.hierarchyviewer.feature:23.0.0.1245622"/>
+		<item value="com.android.ide.eclipse.traceview.feature:23.0.0.1245622"/>
+		<item value="com.crashlytics.tools.eclipse:1.7.0"/>
+		<item value="net.rim.ajde.feature:2.0.5.201407162201"/>
+		<item value="org.eclipse.cdt.gdb:7.0.0.201202111925"/>
+		<item value="org.eclipse.cdt:8.0.2.201202111925"/>
+		<item value="org.eclipse.egit.import:2.2.0.201212191850-r"/>
+		<item value="org.eclipse.egit:2.2.0.201212191850-r"/>
+		<item value="org.eclipse.emf.common:2.9.1.v20130827-0309"/>
+		<item value="org.eclipse.emf.ecore:2.9.1.v20130827-0309"/>
+		<item value="org.eclipse.help:1.4.1.v20120912-144938-8R7xFOXFLWUl7PpNBh_HIGkb4"/>
+		<item value="org.eclipse.jdt:3.8.2.v20130116-090414-8-8nFu3FNOfwKLRuqgXKIy9z0I83"/>
+		<item value="org.eclipse.jgit:2.2.0.201212191850-r"/>
+		<item value="org.eclipse.platform:4.2.1.v20130118-173121-9MF7GHYdG0B5kx4E_SkfZV-1mNjVATf67ZAb7"/>
+		<item value="org.eclipse.rcp:4.2.2.v20130129-152330-7IARAABrMQkGSvMgQnUlz-DQz00h"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="484" key="DIALOG_WIDTH"/>
+		<item value="315" key="DIALOG_Y_ORIGIN"/>
+		<item value="354" key="DIALOG_HEIGHT"/>
+		<item value="-1202" key="DIALOG_X_ORIGIN"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+	</section>
+</section>

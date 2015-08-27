@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.jcmore2.collage.MultiTouchListener.TransformInfo"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="com.jcmore2.collage.MultiTouchListener"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.jcmore2.collagesample.R.drawable"/>
+<fullyQualifiedTypeName name="com.jcmore2.collagesample.R.color"/>
+<fullyQualifiedTypeName name="android.view.ViewTreeObserver.OnGlobalLayoutListener"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="android.view.ViewGroup.LayoutParams"/>
+<fullyQualifiedTypeName name="com.jcmore2.collage.CollageItemView"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="android.R.color"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="com.jcmore2.collage.CollageView"/>
+<fullyQualifiedTypeName name="com.jcmore2.collagesample.MainActivity"/>
+<fullyQualifiedTypeName name="android.widget.RelativeLayout.LayoutParams"/>
+<fullyQualifiedTypeName name="android.widget.ImageView.ScaleType"/>
+<fullyQualifiedTypeName name="android.widget.RelativeLayout"/>
+</qualifiedTypeNameHistroy>

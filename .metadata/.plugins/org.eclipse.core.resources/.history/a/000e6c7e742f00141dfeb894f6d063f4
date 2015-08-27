@@ -1,0 +1,91 @@
+package com.jcmore2.collage;
+
+import android.annotation.SuppressLint;
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.drawable.Drawable;
+import android.util.AttributeSet;
+import android.widget.ImageView;
+
+/**
+ * Card View is a collage item
+ * 
+ * @author Juan Carlos Moreno (jcmore2@gmail.com)
+ * 
+ */
+public class CardView extends ImageView {
+
+	private static final int PADDING = 8;
+	private static final float STROKE_WIDTH = 8.0f;
+
+	private Paint mBorderPaint;
+	private MultiTouchListener mtl;
+
+	public CardView(Context context) {
+		this(context, null);
+		init();
+	}
+
+	public CardView(Context context, AttributeSet attrs) {
+		this(context, attrs, 0);
+		init();
+		setPadding(PADDING, PADDING, PADDING, PADDING);
+	}
+
+	public CardView(Context context, AttributeSet attrs, int defStyle) {
+		super(context, attrs, defStyle);
+		init();
+		initBorderPaint();
+	}
+
+	@SuppressLint("ClickableViewAccessibility")
+	private void init() {
+		this.setScaleType(ScaleType.FIT_XY);
+		mtl = new MultiTouchListener();
+		this.setOnTouchListener(mtl);
+		mtl.setRandomPosition(this);
+
+	}
+
+	private void initBorderPaint() {
+		mBorderPaint = new Paint();
+		mBorderPaint.setAntiAlias(true);
+		mBorderPaint.setStyle(Paint.Style.STROKE);
+		mBorderPaint.setColor(Color.WHITE);
+		mBorderPaint.setStrokeWidth(STROKE_WIDTH);
+	}
+
+	// @Override
+	// protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+	// Drawable d = getDrawable();
+	//
+	// if (d != null) {
+	// // ceil not round - avoid thin vertical gaps along the left/right
+	// // edges
+	// int width = MeasureSpec.getSize(widthMeasureSpec);
+	// int height = (int) Math.ceil((float) width
+	// * (float) d.getIntrinsicHeight()
+	// / (float) d.getIntrinsicWidth());
+	// setMeasuredDimension(width, height);
+	// } else {
+	// super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+	// }
+	// }
+
+	@Override
+	protected void onDraw(Canvas canvas) {
+		super.onDraw(canvas);
+		canvas.drawRect(PADDING, PADDING, getWidth() - PADDING, getHeight()
+				- PADDING, mBorderPaint);
+	}
+
+	protected void setFixedItem() {
+
+		mtl.isRotateEnabled = false;
+		mtl.isScaleEnabled = false;
+		mtl.isTranslateEnabled = false;
+	}
+
+}
