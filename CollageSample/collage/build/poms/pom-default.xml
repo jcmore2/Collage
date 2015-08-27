@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jcmore2.collage</groupId>
+  <artifactId>collage</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>collage</name>
+  <description>This library allows you to create a random collage of cards.</description>
+  <url>https://github.com/jcmore2/Collage</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jcmore2</id>
+      <name>Juan Carlos Moreno</name>
+      <email>jcmore2@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jcmore2/Collage.git</connection>
+    <developerConnection>https://github.com/jcmore2/Collage.git</developerConnection>
+    <url>https://github.com/jcmore2/Collage</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>19.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

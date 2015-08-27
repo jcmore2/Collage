@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectModuleManager">
-    <modules />
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CollageSample.iml" filepath="$PROJECT_DIR$/CollageSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collage/collage.iml" filepath="$PROJECT_DIR$/collage/collage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collageSample/collageSample.iml" filepath="$PROJECT_DIR$/collageSample/collageSample.iml" />
+    </modules>
   </component>
 </project>

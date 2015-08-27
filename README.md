@@ -22,6 +22,14 @@ Check CollageSample in
 Usage
 -----
 
+Add library to your build.gradle:
+
+```java
+
+	    compile 'com.jcmore2.collage:collage:1.0.0'
+
+```
+
 Add CollageView in your xml
 
 

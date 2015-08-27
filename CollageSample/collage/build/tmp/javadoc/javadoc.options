@@ -1,0 +1,11 @@
+-classpath '/Applications/adt-bundle-mac-x86_64-20130522/sdk/platforms/android-19/android.jar'
+-d '/Users/jcmore2/Documents/Codigo Android/AndroidCollageLib/CollageSample/collage/build/docs/javadoc'
+-doctitle 'collage 1.0.0 API'
+-quiet 
+-windowtitle 'collage 1.0.0 API'
+'/Users/jcmore2/Documents/Codigo Android/AndroidCollageLib/CollageSample/collage/src/main/java/com/jcmore2/collage/CardView.java'
+'/Users/jcmore2/Documents/Codigo Android/AndroidCollageLib/CollageSample/collage/src/main/java/com/jcmore2/collage/CollageView.java'
+'/Users/jcmore2/Documents/Codigo Android/AndroidCollageLib/CollageSample/collage/src/main/java/com/jcmore2/collage/MultiTouchListener.java'
+'/Users/jcmore2/Documents/Codigo Android/AndroidCollageLib/CollageSample/collage/src/main/java/com/jcmore2/collage/ScaleGestureDetector.java'
+'/Users/jcmore2/Documents/Codigo Android/AndroidCollageLib/CollageSample/collage/src/main/java/com/jcmore2/collage/Utils.java'
+'/Users/jcmore2/Documents/Codigo Android/AndroidCollageLib/CollageSample/collage/src/main/java/com/jcmore2/collage/Vector2D.java'

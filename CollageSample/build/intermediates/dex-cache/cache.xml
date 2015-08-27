@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Applications/adt-bundle-mac-x86_64-20130522/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/jcmore2/Documents/Codigo Android/AndroidCollageLib/CollageSample/collageSample/build/intermediates/pre-dexed/debug/support-v4-19.1.0-2e33946fc2604895f5b8311a8f550d912c25103c.jar" />
+    </item>
+    <item
+        jar="/Users/jcmore2/Documents/Codigo Android/AndroidCollageLib/CollageSample/collageSample/build/intermediates/exploded-aar/com.jcmore2.collage/collage/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e1ca9fdd205dd14717d4f41d27e4941dfb897bf">
+        <dex dex="/Users/jcmore2/Documents/Codigo Android/AndroidCollageLib/CollageSample/collageSample/build/intermediates/pre-dexed/debug/classes-f2facdd035bcb0200c69fd81da34b8bee650fbcb.jar" />
+    </item>
+
+</items>
