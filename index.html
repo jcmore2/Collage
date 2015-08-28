@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Collage by jcmore2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Collage</h1>
+      <h2 class="project-tagline">This library allows you to create a random collage of cards.</h2>
+      <a href="https://github.com/jcmore2/Collage" class="btn">View on GitHub</a>
+      <a href="https://github.com/jcmore2/Collage/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/jcmore2/Collage/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="collage" class="anchor" href="#collage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Collage</h1>
+
+<p>This library allows you to create a random collage of cards. </p>
+
+<p>The library allows to create fixed Collage (cards can not be moved, scaled or rotated) 
+or dynamic Collage (cards can move, scale and rotate).</p>
+
+<p>Collage is based on library created by <a href="https://github.com/thuytrinh/android-collage-views">thuytrinh</a></p>
+
+<p><img src="https://raw.githubusercontent.com/jcmore2/Collage/master/raw/sample1.gif" width="270" height="480">
+<img src="https://raw.githubusercontent.com/jcmore2/Collage/master/raw/sample2.gif" width="270" height="480">
+<img src="https://raw.githubusercontent.com/jcmore2/Collage/master/raw/sample3.gif" width="270" height="480"></p>
+
+<p>Check CollageSample in </p>
+
+<p><a href="https://play.google.com/store/apps/details?id=com.jcmore2.collagesample">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png">
+</a></p>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Add library to your build.gradle:</p>
+
+<div class="highlight highlight-java"><pre>
+        compile <span class="pl-s"><span class="pl-pds">'</span>com.jcmore2.collage:collage:1.0.0<span class="pl-pds">'</span></span>
+</pre></div>
+
+<p>Add CollageView in your xml</p>
+
+<div class="highlight highlight-xml"><pre>
+        &lt;<span class="pl-ent">com</span>.jcmore2.collage.CollageView
+            <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>@+id/collage<span class="pl-pds">"</span></span>
+            <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_width</span>=<span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
+            <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_height</span>=<span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
+            <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_margin</span>=<span class="pl-s"><span class="pl-pds">"</span>10dip<span class="pl-pds">"</span></span> &gt;
+        &lt;/<span class="pl-ent">com</span>.jcmore2.collage.CollageView&gt;
+</pre></div>
+
+<p>Get CollageView in your activity, create a list of images (Bitmaps, Drawables, Resources)
+and call 'createCollage'</p>
+
+<div class="highlight highlight-java"><pre>
+        <span class="pl-smi">CollageView</span> collage <span class="pl-k">=</span> (<span class="pl-smi">CollageView</span>) findViewById(<span class="pl-smi">R</span><span class="pl-k">.</span>id<span class="pl-k">.</span>collage);
+
+        <span class="pl-k">List&lt;<span class="pl-smi">Integer</span>&gt;</span> listRes <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-k">ArrayList&lt;<span class="pl-smi">Integer</span>&gt;</span>();
+        listRes<span class="pl-k">.</span>add(<span class="pl-smi">R</span><span class="pl-k">.</span>drawable<span class="pl-k">.</span>img1);
+        listRes<span class="pl-k">.</span>add(<span class="pl-smi">R</span><span class="pl-k">.</span>drawable<span class="pl-k">.</span>img2);
+        listRes<span class="pl-k">.</span>add(<span class="pl-smi">R</span><span class="pl-k">.</span>drawable<span class="pl-k">.</span>img3);
+        listRes<span class="pl-k">.</span>add(<span class="pl-smi">R</span><span class="pl-k">.</span>drawable<span class="pl-k">.</span>img4);
+
+        collage<span class="pl-k">.</span>createCollageResources(listRes);
+</pre></div>
+
+<ul>
+<li>You can set Collage fixed</li>
+</ul>
+
+<div class="highlight highlight-java"><pre>
+        collage<span class="pl-k">.</span>setFixedCollage(<span class="pl-c1">true</span>);
+</pre></div>
+
+<ul>
+<li>or dynamic (default)</li>
+</ul>
+
+<div class="highlight highlight-java"><pre>
+        collage<span class="pl-k">.</span>setFixedCollage(<span class="pl-c1">false</span>);
+
+</pre></div>
+
+<h2>
+<a id="credits--contact" class="anchor" href="#credits--contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits &amp; Contact</h2>
+
+<p>Collage was created by <a href="mailto:jcmore2@gmail.com">jcmore2@gmail.com</a></p>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>Collage is available under the Apache License, Version 2.0.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/jcmore2/Collage">Collage</a> is maintained by <a href="https://github.com/jcmore2">jcmore2</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
